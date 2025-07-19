@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/pccimarusti/Desktop/Code/MidiSynth -B /Users/pccimarusti/Desktop/Code/MidiSynth/cmake-build-debug
+-- Checking for module 'jack'
+--   No package 'jack' found
+-- Checking for module 'libpulse-simple'
+--   No package 'libpulse-simple' found
+-- Compiling with support for: core
+-- Checking for module 'jack'
+--   No package 'jack' found
+-- Could NOT find ALSA (missing: ALSA_LIBRARY ALSA_INCLUDE_DIR) 
+-- Compiling with support for: coremidi
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/pccimarusti/Desktop/Code/MidiSynth/cmake-build-debug

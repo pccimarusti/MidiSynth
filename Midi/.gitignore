@@ -1,0 +1,20 @@
+# C++ build system
+build/
+cmake-build-debug/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+*.DS_Store
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Mac system files
+.DS_Store
+
+# RtAudio / RtMidi builds
+rtaudio/*.dylib
+rtmidi/*.a

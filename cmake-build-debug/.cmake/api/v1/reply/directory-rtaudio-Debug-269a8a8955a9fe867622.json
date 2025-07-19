@@ -1,0 +1,134 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"rtaudio/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 304,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rtaudio/librtaudio.8.0.0.dylib",
+				"rtaudio/librtaudio.8.dylib"
+			],
+			"targetId" : "rtaudio::@a8eb7dd4ebbc246357ed",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rtaudio/librtaudio.dylib"
+			],
+			"targetId" : "rtaudio::@a8eb7dd4ebbc246357ed",
+			"targetIndex" : 36,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/rtaudio",
+			"paths" : 
+			[
+				"rtaudio/RtAudio.h",
+				"rtaudio/rtaudio_c.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/rtaudio",
+			"paths" : 
+			[
+				"cmake-build-debug/rtaudio/RtAudioConfig.cmake",
+				"cmake-build-debug/rtaudio/RtAudioConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "share/rtaudio",
+			"exportName" : "RtAudioTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "rtaudio::@a8eb7dd4ebbc246357ed",
+					"index" : 36
+				}
+			],
+			"paths" : 
+			[
+				"rtaudio/CMakeFiles/Export/4543b84eac4cb2add714cfda6e3ec172/RtAudioTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/rtaudio/rtaudio.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "rtaudio",
+		"source" : "rtaudio"
+	}
+}

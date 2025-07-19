@@ -1,0 +1,483 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "rtaudio",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rtaudio-Debug-269a8a8955a9fe867622.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "rtaudio",
+					"targetIndexes" : 
+					[
+						36,
+						40
+					]
+				},
+				{
+					"build" : "rtmidi",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-rtmidi-Debug-a5bba347e259be7ee3f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "rtmidi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MidiSynth",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "RtAudio",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						36,
+						40
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "RtMidi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						37,
+						38,
+						39
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Continuous::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-Continuous-Debug-ed2d415fdf54c50c6017.json",
+					"name" : "Continuous",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousBuild::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousBuild-Debug-689c05eeff6a1a5b4565.json",
+					"name" : "ContinuousBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousConfigure::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousConfigure-Debug-0a1a4887cac0361a346b.json",
+					"name" : "ContinuousConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousCoverage::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousCoverage-Debug-497d852631787e55a53a.json",
+					"name" : "ContinuousCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousMemCheck::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousMemCheck-Debug-99d79889df8eb418c634.json",
+					"name" : "ContinuousMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousStart::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousStart-Debug-592e70b1605f72d58074.json",
+					"name" : "ContinuousStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousSubmit::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousSubmit-Debug-f1ca8594648002617da8.json",
+					"name" : "ContinuousSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousTest::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousTest-Debug-7a8f96daa9646a4ba275.json",
+					"name" : "ContinuousTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ContinuousUpdate::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ContinuousUpdate-Debug-9d2640945944b8f82c68.json",
+					"name" : "ContinuousUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Experimental::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-Experimental-Debug-3e5a0ab491d6423ff82c.json",
+					"name" : "Experimental",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalBuild::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalBuild-Debug-1e79341d1223cc78bfdc.json",
+					"name" : "ExperimentalBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalConfigure::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalConfigure-Debug-01d657770dc4c2f9dad3.json",
+					"name" : "ExperimentalConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalCoverage::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalCoverage-Debug-b0b45db595dc1520b8a4.json",
+					"name" : "ExperimentalCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalMemCheck::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalMemCheck-Debug-0e8c143f62bd21c36e57.json",
+					"name" : "ExperimentalMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalStart::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalStart-Debug-c0d05def4a8eae12b307.json",
+					"name" : "ExperimentalStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalSubmit::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalSubmit-Debug-5ec4a457c41d3cc215f6.json",
+					"name" : "ExperimentalSubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalTest::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalTest-Debug-099e9c14831857e38895.json",
+					"name" : "ExperimentalTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ExperimentalUpdate::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-ExperimentalUpdate-Debug-4cd69b07c18143a2352a.json",
+					"name" : "ExperimentalUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MidiSynth::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MidiSynth-Debug-284943a0a095827d8a15.json",
+					"name" : "MidiSynth",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Nightly::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-Nightly-Debug-832aeab19e05aaf132c1.json",
+					"name" : "Nightly",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyBuild::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyBuild-Debug-e0f142042a4e44c47374.json",
+					"name" : "NightlyBuild",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyConfigure::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyConfigure-Debug-de74b505b7daad439b3d.json",
+					"name" : "NightlyConfigure",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyCoverage::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyCoverage-Debug-f0b61c96e4ee4c2ae8f5.json",
+					"name" : "NightlyCoverage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemCheck::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyMemCheck-Debug-9bdf6feed13a2b839ce6.json",
+					"name" : "NightlyMemCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyMemoryCheck::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyMemoryCheck-Debug-9da9e62254befa315178.json",
+					"name" : "NightlyMemoryCheck",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyStart::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyStart-Debug-465300b612192f07d420.json",
+					"name" : "NightlyStart",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlySubmit::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlySubmit-Debug-72613d436262f64f3651.json",
+					"name" : "NightlySubmit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyTest::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyTest-Debug-575133ea21367c8c212e.json",
+					"name" : "NightlyTest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "NightlyUpdate::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-NightlyUpdate-Debug-269a0485a4399d705aae.json",
+					"name" : "NightlyUpdate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "apinames::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-apinames-Debug-146ba8ae4ed7b888e4b4.json",
+					"name" : "apinames",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "cmidiin::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-cmidiin-Debug-efc6bca9550f6333748a.json",
+					"name" : "cmidiin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "midiclock::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-midiclock-Debug-25982c76ccba791ef520.json",
+					"name" : "midiclock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "midiout::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-midiout-Debug-aa13f847e9712a405d86.json",
+					"name" : "midiout",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "midiprobe::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-midiprobe-Debug-73a792640069d5e21e28.json",
+					"name" : "midiprobe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "qmidiin::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-qmidiin-Debug-11afa74690a0188d123b.json",
+					"name" : "qmidiin",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rt_uninstall::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-rt_uninstall-Debug-58a7c7cf4dc5232a1bd4.json",
+					"name" : "rt_uninstall",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rtaudio::@a8eb7dd4ebbc246357ed",
+					"jsonFile" : "target-rtaudio-Debug-40538d731a07428bbb18.json",
+					"name" : "rtaudio",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rtmidi::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-rtmidi-Debug-42c2bb0e2e4206c4f0e8.json",
+					"name" : "rtmidi",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sysextest::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-sysextest-Debug-b93b92292722f8ce3f65.json",
+					"name" : "sysextest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "testcapi::@530fc580bf4cd4f54259",
+					"jsonFile" : "target-testcapi-Debug-12d37299b348404d11df.json",
+					"name" : "testcapi",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@a8eb7dd4ebbc246357ed",
+					"jsonFile" : "target-uninstall-Debug-0c3c7c41ea1815a267d6.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/pccimarusti/Desktop/Code/MidiSynth/cmake-build-debug",
+		"source" : "/Users/pccimarusti/Desktop/Code/MidiSynth"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
